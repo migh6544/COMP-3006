@@ -1,0 +1,1 @@
+cut -c 63-69 Data.txt | sort -n | tee T_DAILY_AVG_sorted.txt | python3 compute_stats.py
